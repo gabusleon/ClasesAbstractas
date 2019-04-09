@@ -43,7 +43,7 @@ public class EmpleadoAsalariado extends Empleado {
         Date fechaInicio = super.getFechaContratacion();
         long tiempoMilisegundos = fechaFin.getTime() - fechaInicio.getTime();
         long tiempoTranscurridoEnAnios = (tiempoMilisegundos / (3600 * 24 * 1000)) / 365;
-        System.out.println("Tiempo transcurrido " + tiempoTranscurridoEnAnios);
+        //System.out.println("Tiempo transcurrido " + tiempoTranscurridoEnAnios);
 
         if (tiempoTranscurridoEnAnios >= 5) {
             int aniosComision = (int) (tiempoTranscurridoEnAnios - 5);
