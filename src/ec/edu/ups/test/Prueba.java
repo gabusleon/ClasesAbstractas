@@ -6,6 +6,7 @@
 package ec.edu.ups.test;
 
 import ec.edu.ups.clases.EmpleadoAsalariado;
+import ec.edu.ups.clases.EmpleadoPorComision;
 import ec.edu.ups.clases.EmpleadoPorHoras;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -27,6 +28,12 @@ public class Prueba {
         empleadoJuanito.setNumeroHorasExtra(15);
         double salarioFinalJuanito = empleadoJuanito.calcularSalarioFinal();
         System.out.println("Salario final Juanito: " + salarioFinalJuanito);
+        
+        GregorianCalendar fechaContratacionMaria = new GregorianCalendar(2017, 0, 1);
+        EmpleadoPorComision empleadaMaria = new EmpleadoPorComision(3, "0303030303", "María Perez", fechaContratacionMaria.getTime(), 450);
+        empleadaMaria.setVentasMensuales(1200);
+        double salarioFinalMaria = empleadaMaria.calcularSalarioFinal();
+        System.out.println("Salario final Maria: " + salarioFinalMaria);
         
     }
 }
