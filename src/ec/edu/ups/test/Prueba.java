@@ -8,12 +8,11 @@ package ec.edu.ups.test;
 import ec.edu.ups.clases.EmpleadoAsalariado;
 import ec.edu.ups.clases.EmpleadoPorComision;
 import ec.edu.ups.clases.EmpleadoPorHoras;
-import java.util.Date;
 import java.util.GregorianCalendar;
 
 /**
  *
- * @author Estudiante
+ * @author Gabriel León Paredes, PhD
  */
 public class Prueba {
     public static void main(String[] args) {
