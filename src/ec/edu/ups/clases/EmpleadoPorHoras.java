@@ -16,7 +16,7 @@ import java.util.Date;
  * 
  * @author Gabriel León Paredes, PhD
  */
-public class EmpleadoPorHoras extends Empleado {
+public final class EmpleadoPorHoras extends Empleado {
 
     private int numeroHorasExtra;
     private double costoHoraExtra;

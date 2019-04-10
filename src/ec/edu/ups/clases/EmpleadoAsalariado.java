@@ -16,7 +16,7 @@ import java.util.Date;
  *
  * @author Gabriel León Paredes, PhD
  */
-public class EmpleadoAsalariado extends Empleado {
+public final class EmpleadoAsalariado extends Empleado {
 
     public EmpleadoAsalariado() {
     }
@@ -57,4 +57,11 @@ public class EmpleadoAsalariado extends Empleado {
         }
 
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " Empleado Asalariado [ SalarioFinal = " + this.calcularSalarioFinal() + " ]";
+    }
+    
+    
 }

@@ -17,7 +17,7 @@ import java.util.Date;
  *
  * @author Gabriel León Paredes, PhD
  */
-public class EmpleadoPorComision extends Empleado {
+public final class EmpleadoPorComision extends Empleado {
 
     private double ventasMensuales;
 
